@@ -1,14 +1,14 @@
 
 const Header = () => {
     return (
-        <nav className="flex text-primaryColor px-4  py-3 justify-between bg-bgColor">
-            <h1 className="">Hassaam</h1>
-            <div>
-                <a className="text-textColor" href="#about" target="_blank" >About</a>
-                <a href="#work" target="_blank" >Work</a>
-                <a href="#experience" target="_blank" >Experience</a>
-                <a href="#skills" target="_blank" >Skills</a>
-                <a href="#contact" target="_blank" >Contact</a>
+        <nav className="flex  h-[12vh] px-10 justify-between bg-bgColor items-center">
+            <h1 className="text-primaryColor">Hassaam</h1>
+            <div className="flex gap-4">
+                <a className="text-textColor hover:text-primaryColor" href="#about">About</a>
+                <a className="text-textColor hover:text-primaryColor" href="#work">Work</a>
+                <a className="text-textColor hover:text-primaryColor" href="#experience">Experience</a>
+                <a className="text-textColor hover:text-primaryColor" href="#skills">Skills</a>
+                <a className="text-textColor hover:text-primaryColor" href="#contact">Contact</a>
             </div>
         </nav>
     )
