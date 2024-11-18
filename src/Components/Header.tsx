@@ -2,8 +2,8 @@ import { Anchor } from "@mantine/core"
 
 const Header = () => {
     return (
-        <nav>
-            <h1>Hassaam</h1>
+        <nav className="flex text-[#64FFDA] justify-between bg-[#0A192F]">
+            <h1 className="">Hassaam</h1>
             <div>
                 <Anchor href="#about" target="_blank" underline="never">About</Anchor>
                 <Anchor href="#work" target="_blank" underline="never">Work</Anchor>
