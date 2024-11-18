@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './Components/HomePage';
 
 function App() {
   return (
-    <h1 className='text-red-500'>Hello World</h1>
+    <HomePage />
   );
 }
 
