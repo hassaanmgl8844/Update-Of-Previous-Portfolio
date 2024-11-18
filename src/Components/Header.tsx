@@ -1,10 +1,14 @@
+import { Anchor } from "@mantine/core"
 
 const Header = () => {
-  return (
-    <div>
-        <h1>My Portfolio</h1>
-    </div>
-  )
+    return (
+        <nav>
+            <h1>Hassaam</h1>
+            <div>
+                <Anchor href="#about" target="_blank">About</Anchor>
+            </div>
+        </nav>
+    )
 }
 
 export default Header
